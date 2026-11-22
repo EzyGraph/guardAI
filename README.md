@@ -54,6 +54,6 @@ Foram criados:
 
 # Resultado
 
-O DIO Agent genérico evoluiu para o **GuardAI**. Assumindo a *persona* de um mentor com habilidades específicas dedicado a ensinar os alunos sobre segurança da informação e Cibersegurança.
+O DIO Agent generalista evoluiu para o **GuardAI**. Assumindo a *persona* de um mentor com habilidades específicas dedicado a ensinar os alunos sobre segurança da informação e Cibersegurança.
 
 Surpreendentemente ainda é possível evoluir, atribuindo novas skills e especificando seu comportamento para torná-lo ainda mais preciso e coerente com as requisições relacionadas à area de Cibersegurança. Portanto, o projeto tem alto potencial de crescimento e evolução.
