@@ -14,7 +14,7 @@ O ambiente (Harness) escolhido para rodar o DIO Agent foi o [Hermes](https://her
 
 ### Testando o Hermes
 
-Escrevi um pequeno ![programa em python](/agent/app.py) que demonstrava o recurso de acesso por login e senha por meio do *sqlite3* com uma vulnerabilidade proposital e pedi ao Hermes para avaliar:
+Escrevi um pequeno [programa em python](/agent/app.py) que demonstrava o recurso de acesso por login e senha por meio do *sqlite3* com uma vulnerabilidade proposital e pedi ao Hermes para avaliar:
 
 **Prompt:** Avalie o código do arquivo app.py e como especialista em cybersecurity, encontre a falha, explique a exploração, cite a técnica do MITRE ATT&CK e reescreva o código.
 
@@ -37,9 +37,9 @@ Para tonar o DIO Agent em um especialista em Cibersegurança e instruir o estuda
 
 Foram criados:
 
-- Uma nova ![skill](/skills/vulnerability-analysis/SKILL.md) na pasta criada **skills/vulnerability-analysis/** para ensinar o agente sobre vulnerabilidades de segurança da informação e com intuito de fornecer uma abordagem defensiva e didádica aos alunos.
+- Uma nova [skill](/skills/vulnerability-analysis/SKILL.md) na pasta criada **skills/vulnerability-analysis/** para ensinar o agente sobre vulnerabilidades de segurança da informação e com intuito de fornecer uma abordagem defensiva e didádica aos alunos.
 
-- Uma nova base de conhecimentos ao agente, roteirizado no arquivo ![security-basics.md](/agent/knowledge/security-basics.md), na pasta ***agent/knowledge/***. A base em questão é justamente conhecimento dos fundamentos básicos em Cibersegurança, especificando o que é:
+- Uma nova base de conhecimentos ao agente, roteirizado no arquivo [security-basics.md](/agent/knowledge/security-basics.md), na pasta ***agent/knowledge/***. A base em questão é justamente conhecimento dos fundamentos básicos em Cibersegurança, especificando o que é:
 	- vulnerabilidade
 	- ameaça
 	- risco
@@ -48,7 +48,7 @@ Foram criados:
 	- disponibilidade
 	- boas práticas
 	
-- Um trecho na ![persona](/agent/persona.md) em **agent/persona.md** para intruir o agente que além de mentor educacional ele possui conhecimento básico em Segurança da informação e tem por objetivo formar profissionais capazes de pensar como analistas de cyber-segurança.
+- Um trecho na [persona](/agent/persona.md) em **agent/persona.md** para intruir o agente que além de mentor educacional ele possui conhecimento básico em Segurança da informação e tem por objetivo formar profissionais capazes de pensar como analistas de cyber-segurança.
 
 - Uma atribuição de **Security Skills** em AGENTS.md intruindo-o a aplicar a skill em **vulnerability-analysis** quando ele for requisitado para respoder questões relacionadas à segurança.
 
